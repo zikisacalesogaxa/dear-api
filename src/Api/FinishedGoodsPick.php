@@ -11,9 +11,9 @@
  *
  */
 
-namespace UmiMood\Dear\Api;
+namespace Cale\Dear\Api;
 
-use UmiMood\Dear\Api\Contracts\PostMethodAllowed as PostContract;
+use Cale\Dear\Api\Contracts\PostMethodAllowed as PostContract;
 
 class FinishedGoodsPick extends BaseApi implements PostContract
 {

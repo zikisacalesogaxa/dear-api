@@ -11,10 +11,10 @@
  *
  */
 
-namespace UmiMood\Dear\Test;
+namespace Cale\Dear\Test;
 
 use PHPUnit\Framework\TestCase;
-use UmiMood\Dear\Helper;
+use Cale\Dear\Helper;
 
 class HelperTest extends TestCase
 {

@@ -12,7 +12,7 @@ PHP Library for [dear systems](https://dearinventory.docs.apiary.io) API v2.
 ## Installation
 
 ```bash
-composer require umimood/dearapi
+composer require zikisacalesogaxa/dearapi
 ```
 
 Otherwise just download the package and add it to the autoloader.
@@ -25,7 +25,7 @@ Otherwise just download the package and add it to the autoloader.
 
 Create a Dear instance.
 ```php
-$dear = UmiMood\Dear\Dear::create("DEAR-ACCOUNT_ID", "DEAR-APPLICATION-KEY");
+$dear = Cale\Dear\Dear::create("DEAR-ACCOUNT_ID", "DEAR-APPLICATION-KEY");
 ```
 
 Get data from API

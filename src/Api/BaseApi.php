@@ -11,24 +11,24 @@
  *
  */
 
-namespace UmiMood\Dear\Api;
+namespace Cale\Dear\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use GuzzleHttp\Exception\ServerException;
-use UmiMood\Dear\Api\Contracts\DeleteMethodAllowed;
-use UmiMood\Dear\Api\Contracts\PostMethodAllowed;
-use UmiMood\Dear\Api\Contracts\PutMethodAllowed;
-use UmiMood\Dear\Config;
-use UmiMood\Dear\Exception\BadRequestException;
-use UmiMood\Dear\Exception\DearApiException;
-use UmiMood\Dear\Exception\ForbiddenRequestException;
-use UmiMood\Dear\Exception\InternalServerErrorException;
-use UmiMood\Dear\Exception\MethodNotAllowedException;
-use UmiMood\Dear\Exception\NotFoundException;
-use UmiMood\Dear\Exception\ServiceUnavailableException;
-use UmiMood\Dear\Helper;
-use UmiMood\Dear\RESTApi;
+use Cale\Dear\Api\Contracts\DeleteMethodAllowed;
+use Cale\Dear\Api\Contracts\PostMethodAllowed;
+use Cale\Dear\Api\Contracts\PutMethodAllowed;
+use Cale\Dear\Config;
+use Cale\Dear\Exception\BadRequestException;
+use Cale\Dear\Exception\DearApiException;
+use Cale\Dear\Exception\ForbiddenRequestException;
+use Cale\Dear\Exception\InternalServerErrorException;
+use Cale\Dear\Exception\MethodNotAllowedException;
+use Cale\Dear\Exception\NotFoundException;
+use Cale\Dear\Exception\ServiceUnavailableException;
+use Cale\Dear\Helper;
+use Cale\Dear\RESTApi;
 
 abstract class BaseApi implements RESTApi
 {

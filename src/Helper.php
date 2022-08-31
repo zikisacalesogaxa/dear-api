@@ -11,9 +11,9 @@
  *
  */
 
-namespace UmiMood\Dear;
+namespace Cale\Dear;
 
-use UmiMood\Dear\Api\BaseApi;
+use Cale\Dear\Api\BaseApi;
 
 class Helper
 {

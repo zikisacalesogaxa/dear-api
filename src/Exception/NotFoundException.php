@@ -11,7 +11,7 @@
  *
  */
 
-namespace UmiMood\Dear\Exception;
+namespace Cale\Dear\Exception;
 
 class NotFoundException extends DearApiException
 {

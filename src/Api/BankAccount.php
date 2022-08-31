@@ -11,7 +11,7 @@
  *
  */
 
-namespace UmiMood\Dear\Api;
+namespace Cale\Dear\Api;
 
 class BankAccount extends BaseApi
 {

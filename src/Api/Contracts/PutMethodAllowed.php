@@ -11,7 +11,7 @@
  *
  */
 
-namespace UmiMood\Dear\Api\Contracts;
+namespace Cale\Dear\Api\Contracts;
 
 interface PutMethodAllowed
 {

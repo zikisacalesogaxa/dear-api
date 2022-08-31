@@ -11,10 +11,10 @@
  *
  */
 
-namespace UmiMood\Dear\Api;
+namespace Cale\Dear\Api;
 
-use UmiMood\Dear\Api\Contracts\PostMethodAllowed as PostContract;
-use UmiMood\Dear\Api\Contracts\PutMethodAllowed as PutContract;
+use Cale\Dear\Api\Contracts\PostMethodAllowed as PostContract;
+use Cale\Dear\Api\Contracts\PutMethodAllowed as PutContract;
 
 class Customer extends BaseApi implements PostContract, PutContract
 {
