@@ -52,7 +52,7 @@ class Dear
      */
     public function __call($name, $arguments)
     {
-        $class = "\\UmiMood\\Dear\\Api\\" . ucwords($name);
+        $class = "\\Scout\\Dear\\Api\\" . ucwords($name);
         if (class_exists($class)) {
             return new $class($this->config);
         }
