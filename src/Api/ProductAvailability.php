@@ -11,7 +11,7 @@
  *
  */
 
-namespace Cale\Dear\Api;
+namespace Scout\Dear\Api;
 
 class ProductAvailability extends BaseApi
 {

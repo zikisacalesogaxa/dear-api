@@ -11,7 +11,7 @@
  *
  */
 
-namespace Cale\Dear;
+namespace Scout\Dear;
 
 class Config
 {

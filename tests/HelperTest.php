@@ -11,10 +11,10 @@
  *
  */
 
-namespace Cale\Dear\Test;
+namespace Scout\Dear\Test;
 
 use PHPUnit\Framework\TestCase;
-use Cale\Dear\Helper;
+use Scout\Dear\Helper;
 
 class HelperTest extends TestCase
 {

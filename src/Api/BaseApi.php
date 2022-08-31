@@ -11,24 +11,24 @@
  *
  */
 
-namespace Cale\Dear\Api;
+namespace Scout\Dear\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use GuzzleHttp\Exception\ServerException;
-use Cale\Dear\Api\Contracts\DeleteMethodAllowed;
-use Cale\Dear\Api\Contracts\PostMethodAllowed;
-use Cale\Dear\Api\Contracts\PutMethodAllowed;
-use Cale\Dear\Config;
-use Cale\Dear\Exception\BadRequestException;
-use Cale\Dear\Exception\DearApiException;
-use Cale\Dear\Exception\ForbiddenRequestException;
-use Cale\Dear\Exception\InternalServerErrorException;
-use Cale\Dear\Exception\MethodNotAllowedException;
-use Cale\Dear\Exception\NotFoundException;
-use Cale\Dear\Exception\ServiceUnavailableException;
-use Cale\Dear\Helper;
-use Cale\Dear\RESTApi;
+use Scout\Dear\Api\Contracts\DeleteMethodAllowed;
+use Scout\Dear\Api\Contracts\PostMethodAllowed;
+use Scout\Dear\Api\Contracts\PutMethodAllowed;
+use Scout\Dear\Config;
+use Scout\Dear\Exception\BadRequestException;
+use Scout\Dear\Exception\DearApiException;
+use Scout\Dear\Exception\ForbiddenRequestException;
+use Scout\Dear\Exception\InternalServerErrorException;
+use Scout\Dear\Exception\MethodNotAllowedException;
+use Scout\Dear\Exception\NotFoundException;
+use Scout\Dear\Exception\ServiceUnavailableException;
+use Scout\Dear\Helper;
+use Scout\Dear\RESTApi;
 
 abstract class BaseApi implements RESTApi
 {

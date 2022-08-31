@@ -11,10 +11,10 @@
  *
  */
 
-namespace Cale\Dear\Api;
+namespace Scout\Dear\Api;
 
-use Cale\Dear\Api\Contracts\PostMethodAllowed as PostContract;
-use Cale\Dear\Api\Contracts\PutMethodAllowed as PutContract;
+use Scout\Dear\Api\Contracts\PostMethodAllowed as PostContract;
+use Scout\Dear\Api\Contracts\PutMethodAllowed as PutContract;
 
 class SaleFulfilmentPack extends BaseApi implements PostContract, PutContract
 {

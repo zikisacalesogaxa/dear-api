@@ -11,10 +11,10 @@
  *
  */
 
-namespace Cale\Dear\Api;
+namespace Scout\Dear\Api;
 
-use Cale\Dear\Api\Contracts\DeleteMethodAllowed as DeleteContract;
-use Cale\Dear\Api\Contracts\PostMethodAllowed as PostContract;
+use Scout\Dear\Api\Contracts\DeleteMethodAllowed as DeleteContract;
+use Scout\Dear\Api\Contracts\PostMethodAllowed as PostContract;
 
 class ProductAttachment extends BaseApi implements PostContract, DeleteContract
 {

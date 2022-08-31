@@ -17,12 +17,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Cale\\Dear\\" : "src/"
+            "Scout\\Dear\\" : "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Cale\\Dear\\Test\\" : "tests/"
+            "Scout\\Dear\\Test\\" : "tests/"
         }
     },
     "extra": {

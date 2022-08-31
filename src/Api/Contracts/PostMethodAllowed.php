@@ -11,7 +11,7 @@
  *
  */
 
-namespace Cale\Dear\Api\Contracts;
+namespace Scout\Dear\Api\Contracts;
 
 interface PostMethodAllowed
 {

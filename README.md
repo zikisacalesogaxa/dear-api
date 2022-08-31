@@ -25,7 +25,7 @@ Otherwise just download the package and add it to the autoloader.
 
 Create a Dear instance.
 ```php
-$dear = Cale\Dear\Dear::create("DEAR-ACCOUNT_ID", "DEAR-APPLICATION-KEY");
+$dear = Scout\Dear\Dear::create("DEAR-ACCOUNT_ID", "DEAR-APPLICATION-KEY");
 ```
 
 Get data from API

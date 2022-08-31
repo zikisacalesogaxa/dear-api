@@ -11,10 +11,10 @@
  *
  */
 
-namespace Cale\Dear\Test;
+namespace Scout\Dear\Test;
 
 use PHPUnit\Framework\TestCase;
-use Cale\Dear\Config;
+use Scout\Dear\Config;
 
 class ConfigTest extends TestCase
 {

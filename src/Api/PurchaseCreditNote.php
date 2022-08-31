@@ -11,9 +11,9 @@
  *
  */
 
-namespace Cale\Dear\Api;
+namespace Scout\Dear\Api;
 
-use Cale\Dear\Api\Contracts\PostMethodAllowed as PostContract;
+use Scout\Dear\Api\Contracts\PostMethodAllowed as PostContract;
 
 class PurchaseCreditNote extends BaseApi implements PostContract
 {

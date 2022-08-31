@@ -11,7 +11,7 @@
  *
  */
 
-namespace Cale\Dear\Exception;
+namespace Scout\Dear\Exception;
 
 class BadRequestException extends DearApiException
 {

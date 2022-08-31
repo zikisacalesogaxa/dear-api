@@ -11,9 +11,9 @@
  *
  */
 
-namespace Cale\Dear;
+namespace Scout\Dear;
 
-use Cale\Dear\Api\BaseApi;
+use Scout\Dear\Api\BaseApi;
 
 class Helper
 {
