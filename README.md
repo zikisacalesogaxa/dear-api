@@ -6,7 +6,7 @@ PHP Library for [dear systems](https://dearinventory.docs.apiary.io) API v2.
 ## Requirements
 
 * PHP 7.1+
-* guzzlehttp/guzzle 6.3+
+* guzzlehttp/guzzle 7.7+
 * ext-json extension
 
 ## Installation
